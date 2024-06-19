@@ -35,11 +35,13 @@
         background-size: cover; /* Cover entire background */
         background-position: center; /* Center the image */
         background-repeat: no-repeat; /* No repeating */
-        height: 100vh; /* Full viewport height */
+        background-attachment: fixed; /* Make the background fixed */
+        min-height: 100vh; /* Minimum height of the viewport */
         margin: 0; /* Remove default margin */
         font-family: Arial, sans-serif; /* Adjust as needed */
+        overflow-x: hidden; /* Prevent horizontal scrolling */
       }
-      .hsccSP h1 {
+      h1 {
         color: #2400ff;
         -webkit-letter-spacing: 10px;
         -moz-letter-spacing: 10px;
